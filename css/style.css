@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #E0E0E0;
+  }
+  
+  header {
+    background-color: #1B2838;
+    color: #66C0F4;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #66C0F4;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+#progress-bar-container {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #E0E0E0;
+}
+
+#progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #444;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+#progress-bar span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+}
+
+#progress-bar-fill {
+  height: 100%;
+  background-color: #66C0F4;
+  width: 0%;
+  transition: width 0.5s ease;
+}
+  #achievements {
+    margin-top: 2rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .achievement {
+    background-color: #222;
+    border: 1px solid #333;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  .achievement:hover {
+    background-color: #2a2a2a;
+  }
+  
+  .achievement img {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+    border-radius: 8px;
+  }
+  
+  .achievement h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #66C0F4;
+  }
+  
+  .achievement p {
+    margin: 0.2rem 0;
+    color: #bbb;
+  }
+  
+  .achievement .percentage {
+    font-size: 1rem;
+    color: #66C0F4;
+  }
+  
+  .achievement.checked {
+    background-color: #111;
+    opacity: 0.6;
+  }
+  
+  button {
+    background-color: #66C0F4;
+    color: #121212;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #539FD8;
+  }
+
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    align-items: start;
+  }
+  
+  .game-card {
+    background-color: #1c1c1c;
+    border-radius: 13px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    color: #E0E0E0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .game-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+  }
+  
+  .game-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  
+  
+  .game-card h3 {
+    margin: 1rem;
+    font-size: 1.1rem;
+    color: #66C0F4;
+  }
+  .game-info {
+    padding: 1rem;
+    min-height: 15px;
+  }
+  
+  .game-info p {
+    font-size: 0.95rem;
+    color: #bbb;
+    margin: 0.5rem 0;
+  }
+  
+  .achievement-count {
+    display: block;
+    font-size: 0.85rem;
+    color: #66C0F4;
+    font-weight: bold;
+  }
+  
+  .achievement:hover {
+    background-color: #333;
+    transform: scale(1.05);
+  }
+  .achievement input[type="checkbox"] {
+    margin-top: 1rem;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  

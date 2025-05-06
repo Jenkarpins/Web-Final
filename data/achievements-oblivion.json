@@ -1,0 +1,76 @@
+{
+    "game": "Oblivion Remastered",
+    "achievements": [
+      {
+        "name": "Unleashed Power",
+        "description": "Defeat an enemy with a power attack.",
+        "difficulty": "Easy",
+        "icon": "images/unleashed_power_icon.png",
+        "completed": false
+      },
+      {
+        "name": "Legendary Hero",
+        "description": "Reach level 50 in the game.",
+        "difficulty": "Hard",
+        "icon": "images/legendary_hero_icon.png",
+        "completed": false
+      },
+      {
+        "name": "Master of Magic",
+        "description": "Unlock all magical abilities.",
+        "difficulty": "Medium",
+        "icon": "images/master_of_magic_icon.png",
+        "completed": false
+      },
+      {
+        "name": "Master of Stealth",
+        "description": "Successfully complete a mission without being detected.",
+        "difficulty": "Medium",
+        "icon": "images/master_of_stealth_icon.png",
+        "completed": false
+      },
+      {
+        "name": "The True Champion",
+        "description": "Complete the main questline.",
+        "difficulty": "Hard",
+        "icon": "images/true_champion_icon.png",
+        "completed": false
+      },
+      {
+        "name": "Treasure Hunter",
+        "description": "Find all hidden treasures in the game.",
+        "difficulty": "Hard",
+        "icon": "images/treasure_hunter_icon.png",
+        "completed": false
+      },
+      {
+        "name": "Master of Arms",
+        "description": "Reach maximum proficiency in all weapon types.",
+        "difficulty": "Hard",
+        "icon": "images/master_of_arms_icon.png",
+        "completed": false
+      },
+      {
+        "name": "Allies and Enemies",
+        "description": "Recruit all possible companions and defeat all enemies in the game.",
+        "difficulty": "Medium",
+        "icon": "images/allies_and_enemies_icon.png",
+        "completed": false
+      },
+      {
+        "name": "The Unstoppable",
+        "description": "Complete the game on the hardest difficulty setting.",
+        "difficulty": "Very Hard",
+        "icon": "images/the_unstoppable_icon.png",
+        "completed": false
+      },
+      {
+        "name": "Master Crafter",
+        "description": "Craft all possible items in the game.",
+        "difficulty": "Medium",
+        "icon": "images/master_crafter_icon.png",
+        "completed": false
+      }
+    ]
+  }
+  
