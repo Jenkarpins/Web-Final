@@ -3,44 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <title>Games - Achievement Wiki</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Achievement Wiki</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="games.html">Games</a>
-      <a href="about.html">About</a>
-    </nav>
-  </header>
+  <div class="layout">
 
-  <main>
-    <h2>Games</h2>
+    <aside class="sidebar">
+      <h1 class="sidebar-title">Achievement Wiki</h1>
+      <nav class="sidebar-nav">
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="games.html"><i class="fas fa-gamepad"></i> Games</a>
+        <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+      </nav>
+    </aside>
 
-    <div class="games-grid">
 
-      <a href="games/hades.html?game=hades" class="game-card">
-        <img src="/Images/hades/hades.jpg" alt="Hades Cover Art">
-        <div class="game-info">
-          <h3>Hades</h3>
-          <span class="achievement-count">Achievements: 49</span>
-        </div>
-      </a>
+    <main class="main-content">
+      <h2>Games</h2>
 
-      <a href="games/oblivion.html?game=oblivion" class="game-card">
-        <img src="images/obliviongameart.jpg" alt="Oblivion Game Art">
-        <div class="game-info">
-          <h3>Oblivion Remastered</h3>
-          <span class="achievement-count">Achievements: 60</span>
-        </div>
-      </a>
+      <div class="games-header">
+        <input type="text" id="game-search" placeholder="Search games..." />
+        <p id="game-count">Showing 4 games</p>
+      </div>
 
-    </div>
+      <div class="games-grid" id="games-list">
 
-  </main>
-  
-  <footer>
+        <a href="games/hades.html?game=hades" class="modern-card" data-title="Hades">
+          <img src="images/hades/hades.jpg" alt="Hades Game Art">
+          <span class="completion-badge">49 Achievements</span>
+        </a>
+
+        <a href="games/dave.html?game=dave" class="modern-card" data-title="Dave the Diver">
+          <img src="Images/davethediver/davegameart.png" alt="Dave Game Art">
+          <span class="completion-badge">43 Achievements</span>
+        </a>
+
+        <a href="games/oblivion.html?game=oblivion" class="modern-card" data-title="Oblivion Remastered">
+          <img src="/Images/oblivion/obliviongameart.jpg" alt="Oblivion Game Art">
+          <span class="completion-badge">60 Achievements</span>
+        </a>
+
+        <a href="games/witcher3.html?game=witcher3" class="modern-card" data-title="Witcher 3">
+          <img src="/Images/witcher/witcher3gameart.jpg" alt="Witcher 3 Game Art">
+          <span class="completion-badge">78 Achievements</span>
+        </a>
+
+      </div>
+    </main>
+  </div>
+
+  <footer class="page-footer">
     <p>© 2025 Achievement Wiki</p>
   </footer>
 </body>

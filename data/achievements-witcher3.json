@@ -1,0 +1,46 @@
+{
+    "game": "witcher3",
+    "achievements": [
+      {
+        "name": "Lilac and Gooseberries",
+        "description": "Find Yennefer of Vengerberg.",
+        "difficulty": "Easy",
+        "icon": "../images/witcher3/lilac_and_gooseberries.png",
+        "completed": false,
+        "rarity": 92.4
+      },
+      {
+        "name": "Butcher of Blaviken",
+        "description": "Kill at least 5 opponents in under 10 seconds.",
+        "difficulty": "Medium",
+        "icon": "../images/witcher3/butcher_of_blaviken.png",
+        "completed": false,
+        "rarity": 55.1
+      },
+      {
+        "name": "Mutant",
+        "description": "Fill all mutagen slots.",
+        "difficulty": "Hard",
+        "icon": "../images/witcher3/mutant.png",
+        "completed": false,
+        "rarity": 34.8
+      },
+      {
+        "name": "Master Marksman",
+        "description": "Kill 50 human and nonhuman opponents by striking them in the head with a crossbow bolt.",
+        "difficulty": "Hard",
+        "icon": "../images/witcher3/master_marksman.png",
+        "completed": false,
+        "rarity": 22.7
+      },
+      {
+        "name": "Passed the Trial",
+        "description": "Finish the game on any difficulty.",
+        "difficulty": "Medium",
+        "icon": "../images/witcher3/passed_the_trial.png",
+        "completed": false,
+        "rarity": 48.3
+      }
+    ]
+  }
+  

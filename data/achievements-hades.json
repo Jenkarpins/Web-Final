@@ -1,34 +1,37 @@
 {
-    "game": "Hades",
-    "achievements": [
-      {
-        "name": "Is There No Escape?",
-        "description": "Clear an escape attempt for the first time.",
-        "difficulty": "Medium",
-        "icon": "../images/hades/first_blood_icon.png",
-        "completed": false
-      },
-      {
-        "name": "Weapons of Fate",
-        "description": "Clear an escape with each Infernal Arm.",
-        "difficulty": "Hard",
-        "icon": "images/weapons_of_fate_icon.png",
-        "completed": false
-      },
-      {
-        "name": "Skelly's Last Lamentations",
-        "description": "Earn Skelly's favor.",
-        "difficulty": "Hard",
-        "icon": "images/skelly_last_lamentations_icon.png",
-        "completed": false
-      },
-      {
-        "name": "Night and Darkness",
-        "description": "Fulfill the prophecy of Nyx and Chaos.",
-        "difficulty": "Easy",
-        "icon": "images/night_and_darkness_icon.png",
-        "completed": false
-      }
-    ]
-  }
-  
+  "game": "Hades",
+  "achievements": [
+    {
+      "name": "Is There No Escape?",
+      "description": "Clear an escape attempt for the first time.",
+      "difficulty": "Medium",
+      "icon": "../images/hades/istherenoescape.png",
+      "completed": false,
+      "rarity": 42.5
+    },
+    {
+      "name": "Weapons of Fate",
+      "description": "Clear an escape with each Infernal Arm.",
+      "difficulty": "Hard",
+      "icon": "../images/hades/weaponsoffate.png",
+      "completed": false,
+      "rarity": 18.2
+    },
+    {
+      "name": "Skelly's Last Lamentations",
+      "description": "Earn Skelly's favor.",
+      "difficulty": "Hard",
+      "icon": "../images/hades/skellyslastlamentations.png",
+      "completed": false,
+      "rarity": 9.1
+    },
+    {
+      "name": "Night and Darkness",
+      "description": "Fulfill the prophecy of Nyx and Chaos.",
+      "difficulty": "Easy",
+      "icon": "../images/hades/nightanddarkness.png",
+      "completed": false,
+      "rarity": 56.7
+    }
+  ]
+}

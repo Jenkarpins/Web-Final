@@ -1,0 +1,46 @@
+{
+    "game": "dave",
+  "achievements": [
+      {
+        "name": "First Dive",
+        "description": "Complete your first dive.",
+        "difficulty": "Easy",
+        "icon": "../images/dave/first_dive.png",
+        "completed": false,
+        "rarity": 85.2
+      },
+      {
+        "name": "Sushi Master",
+        "description": "Serve 100 dishes at Bancho Sushi.",
+        "difficulty": "Medium",
+        "icon": "../images/dave/sushi_master.png",
+        "completed": false,
+        "rarity": 60.4
+      },
+      {
+        "name": "Deep Sea Danger",
+        "description": "Defeat a boss creature in the Blue Hole Depths.",
+        "difficulty": "Hard",
+        "icon": "../images/dave/deep_sea_danger.png",
+        "completed": false,
+        "rarity": 30.1
+      },
+      {
+        "name": "Eco Hero",
+        "description": "Clean up 10 ocean trash items.",
+        "difficulty": "Easy",
+        "icon": "../images/dave/eco_hero.png",
+        "completed": false,
+        "rarity": 70.0
+      },
+      {
+        "name": "Gold Rush",
+        "description": "Earn over 10,000 gold.",
+        "difficulty": "Medium",
+        "icon": "../images/dave/gold_rush.png",
+        "completed": false,
+        "rarity": 45.6
+      }
+    ]
+  }
+  

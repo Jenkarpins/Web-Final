@@ -3,24 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <title>About - Achievement Wiki</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Achievement Wiki</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="games.html">Games</a>
-      <a href="about.html">About</a>
-    </nav>
-  </header>
+  <div class="layout">
 
-  <main>
-    <h2>About This Project</h2>
-    <p>This wiki was created for gamers who love hunting achievements and completing games 100%. Built for ICS 200!</p>
-  </main>
+    <aside class="sidebar">
+      <h1 class="sidebar-title">Achievement Wiki</h1>
+      <nav class="sidebar-nav">
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="games.html"><i class="fas fa-gamepad"></i> Games</a>
+        <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+      </nav>
+    </aside>
 
-  <footer>
+    <main class="main-content">
+      <div class="centered-content">
+
+        <section class="hero-card">
+          <h2>About Achievement Wiki</h2>
+          <p>A web app for tracking video game achievements with a sleek, Steam-inspired interface.</p>
+        </section>
+
+        <section class="about-section card">
+          <h3><i class="fas fa-bullseye"></i> Key Features</h3>
+          <ul>
+            <li>Steam-style dark theme with dynamic progress bars</li>
+            <li>Achievement tracking with checkboxes</li>
+            <li>Game-specific pages with JSON-loaded data</li>
+            <li>Clean sidebar navigation and game previews</li>
+          </ul>
+        </section>
+
+        <section class="about-section card">
+          <h3><i class="fas fa-tools"></i> Technologies Used</h3>
+          <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>JSON for game data</li>
+            <li>GitHub Pages for hosting</li>
+          </ul>
+        </section>
+
+        <section class="about-section card">
+          <h3><i class="fas fa-graduation-cap"></i> Project Purpose</h3>
+          <p>This website was made for my ICS 200 class. It was inspired by Steam's design while trying to maintain a Wiki feel.</p>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <footer class="page-footer">
     <p>© 2025 Achievement Wiki</p>
   </footer>
 </body>
