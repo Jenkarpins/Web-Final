@@ -8,15 +8,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <div class="layout">
-    <aside class="sidebar">
-      <h1 class="sidebar-title">Achievement Wiki</h1>
-      <nav class="sidebar-nav">
-        <a href="index.html"><i class="fas fa-home"></i> Home</a>
-        <a href="games.html"><i class="fas fa-gamepad"></i> Games</a>
-        <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
-      </nav>
-    </aside>
+  <div class="layout">   
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <h2>🎮 Welcome!</h2>
+    <p>Track achievements and explore game stats.</p>
+  </div>
+
+  <h1 class="sidebar-title">Achievement Wiki</h1>
+  <nav class="sidebar-nav">
+    <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+    <a href="games.html"><i class="fas fa-gamepad"></i> Games</a>
+    <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+  </nav>
+
+  <div class="sidebar-links">
+    <a href="https://github.com/Jenkarpins/Web-Final">GitHub</a> • <a href="#">Discord</a>
+  </div>
+
+  <div class="sidebar-footer">
+    <p>Logged in as<br><strong>JenK</strong></p>
+  </div>
+</aside>
+
 
     <main class="main-content">
       <div class="dashboard-header card">
@@ -104,7 +118,9 @@
           </div>
           
           <div class="steam-game-card">
-            <img src="images/eldenring/eldenbannerart.jpg" alt="Elden Ring" class="game-thumb">
+            <a href="/games/elden.html?game=elden">
+              <img src="Images/eldenring/eldenbannerart.jpg" alt="Elden Ring" class="game-thumb">
+            </a>
             <div class="game-details">
               <div class="left">
                 <h3>Elden Ring</h3>
@@ -145,7 +161,7 @@
           
 
           <section class="stats-panel">
-            <h3><i class="fas fa-trophy"></i> Completion Leaderboard</h3>
+            <h3><i class="fas fa-trophy"></i> Average Completion Leaderboard</h3>
             <ul>
               <li><strong>RdyPlayerOne</strong> – 92%</li>
               <li><strong>OnionKnight</strong> – 88%</li>
@@ -176,7 +192,7 @@
             <ul>
               <li>🆕 Added Elden Ring guide support</li>
               <li>✨ Redesigned homepage layout</li>
-              <li>🐛 Fixed icon scaling on mobile</li>
+              <li>🐛 Fixed card scaling per page size</li>
             </ul>
           </section>
         

@@ -556,3 +556,57 @@ progress {
   text-align: center;
 }
 
+.sidebar-header {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.sidebar-nav a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+  font-weight: 600;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.sidebar-nav a:hover {
+  background-color: #1a1a1a;
+}
+
+.sidebar-nav a.active {
+  background-color: #2c2c2c;
+  color: #66C0F4;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #999;
+  border-top: 1px solid #444;
+}
+
+.sidebar-links {
+  font-size: 0.8rem;
+  padding: 1rem;
+  color: #999;
+}
+
+.sidebar-links a {
+  color: #66C0F4;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.sidebar-links a:hover {
+  text-decoration: underline;
+}
