@@ -8,15 +8,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script defer src="../js/script.js"></script>
   <style>
-    main {
-      flex: 1;
-      display: flex;
-      justify-content: center;
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 2rem;
     }
-    .main-area {
-      width: 100%;
-      max-width: 900px;
-      padding: 2rem;
+    .dashboard-right .card {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
     }
     .game-progress h1 {
       text-align: center;
@@ -25,29 +27,28 @@
       justify-content: center;
     }
     .guides.card {
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: 100%;
     }
-    .game-progress h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
+    .spoiler-warning {
+      background-color: #2e2e2e;
+      border-left: 6px solid #66C0F4;
+      padding: 1rem;
+      margin: rem ;
     }
   </style>
 </head>
 <body>
 
   <div class="game-title-bar">
-    <img src="../Images/oblivion/oblivionlogo.png" alt="Hades Logo" class="game-title-logo">
+    <img src="../images/oblivion/oblivionlogo.png" alt="Oblivion Remastered Logo" class="game-title-logo">
   </div>
+
   <div class="spoiler-warning">
     <h2><strong style="color: #ff0000;">Spoiler warning!</strong></h2>
-    <h3>This page contains detailed information about <em>Oblivion Remastered</em> that may spoil your enjoyment of discovering the game's secrets for yourself.<br>Read at your own risk!</h3>
-    <p>In The Elder Scrolls IV: Oblivion, there are fifty possible achievements. In the expansion pack The Elder Scrolls IV: Shivering Isles, an additional ten achievements are available. All achievements are relatively easy to obtain by simply completing quests for each respective faction. </p>
+    <p>This page contains detailed information about <em>Oblivion Remastered</em> that may spoil your enjoyment of discovering the game's secrets for yourself.<br>Read at your own risk!</p>
   </div>
-  <div class="layout">
 
+  <div class="layout">
     <aside class="sidebar">
       <h1 class="sidebar-title">Achievement Wiki</h1>
       <nav class="sidebar-nav">
@@ -57,30 +58,40 @@
       </nav>
     </aside>
 
-    <main>
-      <div class="main-area">
-        <section class="game-progress">
-          <h1>Oblivion Remastered Achievements</h1>
-          <div id="progress-bar-container">
-            <p>Completion Progress</p>
-            <div id="progress-bar">
-              <div id="progress-bar-fill"></div>
-              <span id="progress-percentage">0%</span>
+    <main class="main-content">
+      <div class="dashboard-grid">
+        <div class="dashboard-left">
+          <section class="game-progress">
+            <div id="progress-bar-container">
+              <p>Oblivion Remastered Completion Progress</p>
+              <div id="progress-bar">
+                <div id="progress-bar-fill"></div>
+                <span id="progress-percentage">0%</span>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <div id="achievements"></div>
+          <div id="achievements"></div>
 
-        <section class="guides card">
-          <h2>Guides & Tips</h2>
-          <ul>
-            <li><strong>Leveling Tip:</strong> Focus on major skills to control level-ups and avoid over-leveling.</li>
-            <li><strong>Guild Strategy:</strong> Join all factions early to maximize quest access and rewards.</li>
-            <li><strong>Shivering Isles:</strong> Complete early to unlock powerful items that help in the main questline.</li>
-          </ul>
-        </section>
+          <section class="guides card">
+            <h2>Guides & Tips</h2>
+            <div id="guides-oblivion"></div>
+          </section>
+        </div>
 
+        <div class="dashboard-right">
+          <section class="card">
+            <h3><i class="fas fa-chart-line"></i> Game Stats</h3>
+            <ul>
+          <li>Total Achievements: <strong>60</strong></li>
+          <li>Avg Completion: <strong>70%</strong></li>
+          <li>Rarest: <strong>Madgod's Champion</strong> – 6%</li></ul>
+          </section>
+          <section class="card">
+            <h3><i class="fas fa-scroll"></i> Trivia</h3>
+            <p>Most achievements are tied to faction questlines like the Dark Brotherhood and Mages Guild.</p>
+          </section>
+        </div>
       </div>
     </main>
   </div>

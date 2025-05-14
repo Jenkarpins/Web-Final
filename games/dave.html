@@ -8,15 +8,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script defer src="../js/script.js"></script>
   <style>
-    main {
-      flex: 1;
-      display: flex;
-      justify-content: center;
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 2rem;
     }
-    .main-area {
-      width: 100%;
-      max-width: 900px;
-      padding: 2rem;
+    .dashboard-right .card {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
     }
     .game-progress h1 {
       text-align: center;
@@ -25,29 +27,28 @@
       justify-content: center;
     }
     .guides.card {
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: 100%;
     }
-    .game-progress h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
+    .spoiler-warning {
+      background-color: #2e2e2e;
+      border-left: 6px solid #66C0F4;
+      padding: 1rem;
+      margin: rem ;
     }
   </style>
 </head>
 <body>
 
   <div class="game-title-bar">
-    <img src="/Images/davethediver/davelogo.png" alt="Hades Logo" class="game-title-logo">
+    <img src="../images/davethediver/davelogo.png" alt="Dave The Diver Logo" class="game-title-logo">
   </div>
-  <div class="spoiler-warning">
-    <h2><strong style="color: #00b7ff;">Spoiler warning!</strong></h2>
-    <h3>This article contains detailed information about <em>Dave The Diver </em>that may spoil your enjoyment of discovering the game's secrets for yourself.<br>Read at your own risk!</h3>
-    <p>Achievements are unlocked after completing Challenges, reaching certain milestones, achieving hidden goals, or unlocking certain items. There are a total of 43 achievements in Dave the Diver as of the 1.0 title update:  </p>
-  </div>
-  <div class="layout">
 
+  <div class="spoiler-warning">
+    <h2><strong style="color: #ffbb00;">Spoiler warning!</strong></h2>
+    <p>This page contains detailed information about <em>Dave The Diver</em> that may spoil your enjoyment of discovering the game's secrets for yourself.<br>Read at your own risk!</p>
+  </div>
+
+  <div class="layout">
     <aside class="sidebar">
       <h1 class="sidebar-title">Achievement Wiki</h1>
       <nav class="sidebar-nav">
@@ -57,30 +58,40 @@
       </nav>
     </aside>
 
-    <main>
-      <div class="main-area">
-        <section class="game-progress">
-          <h1>Dave The Diver Achievements</h1>
-          <div id="progress-bar-container">
-            <p>Completion Progress</p>
-            <div id="progress-bar">
-              <div id="progress-bar-fill"></div>
-              <span id="progress-percentage">0%</span>
+    <main class="main-content">
+      <div class="dashboard-grid">
+        <div class="dashboard-left">
+          <section class="game-progress">
+            <div id="progress-bar-container">
+              <p>Dave The Diver Completion Progress</p>
+              <div id="progress-bar">
+                <div id="progress-bar-fill"></div>
+                <span id="progress-percentage">0%</span>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <div id="achievements"></div>
+          <div id="achievements"></div>
 
-        <section class="guides card">
-          <h2>Guides & Tips</h2>
-          <ul>
-            <li><strong>Gold Farming:</strong> Dive during night missions to find rare fish with higher sell prices.</li>
-            <li><strong>Eco Hero Tip:</strong> Use the harpoon instead of bombs to avoid damaging coral when cleaning trash.</li>
-            <li><strong>Boss Prep:</strong> Upgrade your oxygen tank and equip ranged weapons before exploring the Blue Hole Depths.</li>
-          </ul>
-        </section>
+          <section class="guides card">
+            <h2>Guides & Tips</h2>
+            <div id="guides-dave"></div>
+          </section>
+        </div>
 
+        <div class="dashboard-right">
+          <section class="card">
+            <h3><i class="fas fa-chart-line"></i> Game Stats</h3>
+            <ul>
+          <li>Total Achievements: <strong>43</strong></li>
+          <li>Avg Completion: <strong>72%</strong></li>
+          <li>Rarest: <strong>Whale Whisperer</strong> – 5%</li></ul>
+          </section>
+          <section class="card">
+            <h3><i class="fas fa-scroll"></i> Trivia</h3>
+            <p>You can unlock hidden sushi recipes by catching rare fish at night.</p>
+          </section>
+        </div>
       </div>
     </main>
   </div>

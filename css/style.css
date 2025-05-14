@@ -256,7 +256,7 @@ button:hover, .cta-button:hover {
   color: #fff;
   padding: 1.5rem 2rem;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   border-bottom: 1px solid #333;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   margin-left: 220px;
@@ -536,5 +536,23 @@ progress {
   object-fit: cover;
   border-radius: 4px;
   display: block;
+}
+.extra-panel.card {
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-top: 1.5rem;
+}
+.extra-panel.card {
+  max-width: none;
+  margin: 2rem 0;
+  width: 100%;
+}
+.extra-panel.card {
+  text-align: center;
 }
 
