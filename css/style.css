@@ -355,3 +355,186 @@ button:hover, .cta-button:hover {
 .hidden {
   display: none !important;
 }
+
+.dashboard-header {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.game-card {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 0.8rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.game-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.game-info h3 {
+  margin: 0 0 0.2rem;
+  font-size: 1.1rem;
+  color: #66C0F4;
+}
+
+.game-info p {
+  margin: 0 0 0.3rem;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.stats-panel {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stats-panel h3 {
+  color: #66C0F4;
+  margin-bottom: 0.5rem;
+}
+
+.steam-game-card {
+  display: flex;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.steam-game-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.6);
+}
+
+.game-thumb {
+  width:250px;
+  height: 84px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.game-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.game-details .left h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #66C0F4;
+}
+
+.game-details .left a {
+  font-size: 0.85rem;
+  color: #bbb;
+  text-decoration: none;
+}
+
+.progress-row {
+  margin-top: 0.5rem;
+}
+
+.progress-row span {
+  font-size: 0.8rem;
+  margin-right: 1rem;
+}
+
+progress {
+  width: 100%;
+  height: 8px;
+}
+
+.right {
+  text-align: right;
+}
+
+.playtime {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.playtime .dim {
+  color: #777;
+}
+
+.earned-icons {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+  align-items: center;
+}
+
+.earned-icons img {
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+}
+
+.icon-overflow {
+  background-color: #444;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  border-radius: 4px;
+}
+
+.rare-achievements {
+  list-style: none;
+  padding-left: 0;
+}
+
+.rare-achievements li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.rare-achievements img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.steam-game-card a {
+  display: block;
+  width: 190px;
+  flex-shrink: 0;
+}
+
+.steam-game-card a img.game-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+

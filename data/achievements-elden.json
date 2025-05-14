@@ -1,0 +1,62 @@
+{
+    "game": "elden",
+    "achievements": [
+      {
+        "name": "Elden Lord",
+        "description": "Achieved the 'Elden Lord' ending.",
+        "difficulty": "Hard",
+        "icon": "../images/eldenring/elden_lord.png",
+        "completed": false,
+        "rarity": 12.3
+      },
+      {
+        "name": "Roundtable Hold",
+        "description": "Visited Roundtable Hold for the first time.",
+        "difficulty": "Easy",
+        "icon": "../images/eldenring/roundtable.png",
+        "completed": false,
+        "rarity": 65.7
+      },
+      {
+        "name": "Shardbearer Godrick",
+        "description": "Defeated Shardbearer Godrick.",
+        "difficulty": "Medium",
+        "icon": "../images/eldenring/godrick.png",
+        "completed": false,
+        "rarity": 48.9
+      },
+      {
+        "name": "Legendary Armaments",
+        "description": "Acquired all legendary armaments.",
+        "difficulty": "Hard",
+        "icon": "../images/eldenring/armaments.png",
+        "completed": false,
+        "rarity": 14.6
+      },
+      {
+        "name": "Ranni's Dark Moon",
+        "description": "Unlocked the secret ending with Ranni.",
+        "difficulty": "Hard",
+        "icon": "../images/eldenring/ranni.png",
+        "completed": false,
+        "rarity": 10.2
+      },
+      {
+        "name": "Ancestor Spirit",
+        "description": "Defeated the Regal Ancestor Spirit.",
+        "difficulty": "Medium",
+        "icon": "../images/eldenring/ancestor_spirit.png",
+        "completed": false,
+        "rarity": 38.4
+      },
+      {
+        "name": "Erdtree Avatar",
+        "description": "Defeated an Erdtree Avatar.",
+        "difficulty": "Medium",
+        "icon": "../images/eldenring/erdtree_avatar.png",
+        "completed": false,
+        "rarity": 52.1
+      }
+    ]
+  }
+  

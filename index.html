@@ -9,7 +9,6 @@
 </head>
 <body>
   <div class="layout">
-
     <aside class="sidebar">
       <h1 class="sidebar-title">Achievement Wiki</h1>
       <nav class="sidebar-nav">
@@ -20,41 +19,169 @@
     </aside>
 
     <main class="main-content">
-      <div class="centered-content">
+      <div class="dashboard-header card">
+        <h1>Welcome to Achievement Wiki</h1>
+        <p>Track your progress, Discover what you missed, Complete more.</p>
+      </div>
 
-        <section class="hero-card">
-          <h2>Welcome to the Achievement Wiki</h2>
-          <p>Track your progress. Discover what you’ve missed. Complete more.</p>
-          <a href="games.html" class="cta-button">Browse Games</a>
-        </section>
+      <div class="dashboard-grid">
+        <div class="dashboard-left">
+          <div class="steam-game-card">
+            <a href="/games/hades.html?game=hades">
+            <img src="images/hades/hadesbannerart.jpg" alt="Hades" class="game-thumb">
+          </a>
+            <div class="game-details">
+              <div class="left">
+                <h3>Hades</h3>
+                <a href="https://store.steampowered.com/app/1145360/Hades/">Visit Store Page</a>
+                <div class="progress-row">
+                  <span>Achievement Progress</span>
+                  <span>42 of 49</span>
+                  <progress max="49" value="42"></progress>
+                </div>
+              </div>
+              <div class="right">
+                <p class="playtime">26 hrs on record<br><span class="dim">last played on May 12</span></p>
+                <div class="earned-icons">
+                  <img src="images/hades/istherenoescape.png">
+                  <img src="images/hades/nightanddarkness.png">
+                  <img src="images/hades/skellyslastlamentations.png">
+                  <span class="icon-overflow">+27</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <section class="about-section card">
-          <h3><i class="fas fa-star"></i> Why Achievement Wiki?</h3>
-          <ul>
-            <li>✅ Steam-inspired progress tracking with a clean interface</li>
-            <li>🎯 Visual breakdown of achievements by difficulty</li>
-            <li>📦 Fast, lightweight, and no logins required</li>
-            <li>📊 Interactive progress bars and checklists</li>
-          </ul>
-        </section>
+          <div class="steam-game-card">
+            <a href="/games/dave.html?game=dave">
+            <img src="images/davethediver/davebannerart.png" alt="Dave" class="game-thumb">
+          </a>
+            <div class="game-details">
+              <div class="left">
+                <h3>Dave The Diver</h3>
+                <a href="#">Visit Store Page</a>
+                <div class="progress-row">
+                  <span>Achievement Progress</span>
+                  <span>35 of 43</span>
+                  <progress max="43" value="35"></progress>
+                </div>
+              </div>
+              <div class="right">
+                <p class="playtime">14 hrs on record<br><span class="dim">last played on May 10</span></p>
+                <div class="earned-icons">
+                  <img src="images/ach-icon1.png">
+                  <img src="images/ach-icon2.png">
+                  <span class="icon-overflow">+18</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
-<section class="about-section card">
-  <h3><i class="fas fa-fire"></i> Featured Games</h3>
-  <div class="games-grid">
-    <a href="games/hades.html?game=hades" class="modern-card">
-      <img src="images/hades/hades.jpg" alt="Hades Cover Art">
-      <span class="completion-badge">Hades</span>
-    </a>
+          <div class="steam-game-card">
+            <a href="/games/witcher3.html?game=witcher3">
+            <img src="images/witcher/wither3bannerart.jpg" alt="Witcher 3" class="game-thumb">
+          </a>
+            <div class="game-details">
+              <div class="left">
+                <h3>The Witcher 3</h3>
+                <a href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/" target="_blank">Visit Store Page</a>
+                <div class="progress-row">
+                  <span>Achievement Progress</span>
+                  <span>64 of 78</span>
+                  <progress max="78" value="64"></progress>
+                </div>
+              </div>
+              <div class="right">
+                <p class="playtime">40 hrs on record<br><span class="dim">last played on May 9</span></p>
+                <div class="earned-icons">
+                  <img src="images/ach-icon1.png">
+                  <img src="images/ach-icon2.png">
+                  <img src="images/ach-icon3.png">
+                  <span class="icon-overflow">+61</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="steam-game-card">
+            <img src="images/eldenring/eldenbannerart.jpg" alt="Elden Ring" class="game-thumb">
+            <div class="game-details">
+              <div class="left">
+                <h3>Elden Ring</h3>
+                <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank">Visit Store Page</a>
+                <div class="progress-row">
+                  <span>Achievement Progress</span>
+                  <span>25 of 42</span>
+                  <progress max="42" value="25"></progress>
+                </div>
+              </div>
+              <div class="right">
+                <p class="playtime">54 hrs on record<br><span class="dim">last played on May 6</span></p>
+                <div class="earned-icons">
+                  <img src="images/ach-icon1.png">
+                  <img src="images/ach-icon2.png">
+                  <img src="images/ach-icon3.png">
+                  <span class="icon-overflow">+22</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="extra-panel card">
+            <h3><i class="fas fa-map-signs"></i> Where Should I Start?</h3>
+            <ul>
+              <li>🎯 Just browsing? Try <a href="/games/hades.html?game=hades">Hades</a></li>
+              <li>🎮 Want a big RPG? <a href="/games/elden.html?game+elden">Elden Ring</a></li>
+              <li>🐟 Prefer something chill? <a href="/games/dave.html?game=dave">Dave the Diver</a></li>
+            </ul>
+          </div>
+        </div>
 
-    <a href="games/dave.html?game=dave" class="modern-card">
-      <img src="/Images/davethediver/davegameart.png" alt="Dave Game Art">
-      <span class="completion-badge">Dave The Diver</span>
-    </a>
-  </div>
-</section>
+        <div class="dashboard-right">
+          <section class="stats-panel">
+            <h3><i class="fas fa-lightbulb"></i> Did You Know?</h3>
+            <p>You can unlock a secret ending in Hades by maxing out your relationship with Persephone and Nyx.</p>
+          </section>
+          
 
-        </section>
-
+          <section class="stats-panel">
+            <h3><i class="fas fa-trophy"></i> Completion Leaderboard</h3>
+            <ul>
+              <li><strong>RdyPlayerOne</strong> – 92%</li>
+              <li><strong>OnionKnight</strong> – 88%</li>
+              <li><strong>GhostOfTsushima</strong> – 85%</li>
+            </ul>
+          </section>
+          
+          <section class="stats-panel">
+            <h3><i class="fas fa-star-half-alt"></i> Rarest Achievements</h3>
+            <ul class="rare-achievements">
+              <li>
+                <img src="images/eldenring/eldenlord.jpg" alt="Ranni's Dark Moon">
+                "Elden Lord" – 23.7% (Elden Ring)
+              </li>
+              <li>
+                <img src="images/hades/istherenoescape.png" alt="Bossless Victory">
+                "Bossless Victory" – 8.5% (Hades)
+              </li>
+              <li>
+                <img src="images/oblivion/listener.jpg" alt="Daedric Pact">
+                "Listener, Dark Brotherhood" – 6.7% (Oblivion)
+              </li>
+            </ul>
+          </section>
+          
+          <section class="stats-panel">
+            <h3><i class="fas fa-code-branch"></i> Patch Notes</h3>
+            <ul>
+              <li>🆕 Added Elden Ring guide support</li>
+              <li>✨ Redesigned homepage layout</li>
+              <li>🐛 Fixed icon scaling on mobile</li>
+            </ul>
+          </section>
+        
+          
+        </div>
       </div>
     </main>
   </div>
