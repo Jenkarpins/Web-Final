@@ -2,42 +2,50 @@
     "game": "dave",
   "achievements": [
       {
-        "name": "First Dive",
-        "description": "Complete your first dive.",
+        "name": "Angry Shark",
+        "description": "Caught first shark.",
         "difficulty": "Easy",
-        "icon": "../images/dave/first_dive.png",
+        "icon": "../images/davethediver/angryshark.jpg",
         "completed": false,
         "rarity": 85.2
       },
       {
-        "name": "Sushi Master",
-        "description": "Serve 100 dishes at Bancho Sushi.",
-        "difficulty": "Medium",
-        "icon": "../images/dave/sushi_master.png",
+        "name": "Deep Sea Diver",
+        "description": "Entered the Deep Sea for the first time.",
+        "difficulty": "Easy",
+        "icon": "../images/davethediver/deepseadiver.jpg",
         "completed": false,
         "rarity": 60.4
       },
       {
-        "name": "Deep Sea Danger",
-        "description": "Defeat a boss creature in the Blue Hole Depths.",
-        "difficulty": "Hard",
-        "icon": "../images/dave/deep_sea_danger.png",
+        "name": "Predator of the Blue Hole",
+        "description": "Caught 300 fish.",
+        "difficulty": "Medium",
+        "icon": "../images/davethediver/predator.jpg",
         "completed": false,
         "rarity": 30.1
       },
       {
-        "name": "Eco Hero",
-        "description": "Clean up 10 ocean trash items.",
-        "difficulty": "Easy",
-        "icon": "../images/dave/eco_hero.png",
+        "name": "Cat Man",
+        "description": "Feed cat 20 times.",
+        "difficulty": "Medium",
+        "icon": "../images/davethediver/catman.jpg",
         "completed": false,
         "rarity": 70.0
       },
       {
-        "name": "Gold Rush",
-        "description": "Earn over 10,000 gold.",
-        "difficulty": "Medium",
-        "icon": "../images/dave/gold_rush.png",
+        "name": "Dev Killer",
+        "description": "Wiped-out all the developers",
+        "difficulty": "Hard",
+        "icon": "../images/davethediver/devkiller.jpg",
+        "completed": false,
+        "rarity": 45.6
+      },
+      {
+        "name": "Creature Hunter",
+        "description": "Deafeated all bosses.",
+        "difficulty": "Hard",
+        "icon": "../images/davethediver/creaturehunter.jpg",
         "completed": false,
         "rarity": 45.6
       }

@@ -32,6 +32,22 @@
       "icon": "../images/hades/nightanddarkness.png",
       "completed": false,
       "rarity": 56.7
+    },
+    {
+      "name": "Infernal Arms",
+      "description": "Unlock all weapon aspects.",
+      "difficulty": "Easy",
+      "icon": "../images/hades/infernalarms.jpg",
+      "completed": false,
+      "rarity": 56.7
+    },
+    {
+      "name": "One for the Ages",
+      "description": "Reach the epilogue of the story.",
+      "difficulty": "Easy",
+      "icon": "../images/hades/onefortheages.jpg",
+      "completed": false,
+      "rarity": 56.7
     }
   ]
 }

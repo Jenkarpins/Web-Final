@@ -1,76 +1,68 @@
 {
-    "game": "Oblivion Remastered",
-    "achievements": [
-      {
-        "name": "Unleashed Power",
-        "description": "Defeat an enemy with a power attack.",
-        "difficulty": "Easy",
-        "icon": "images/unleashed_power_icon.png",
-        "completed": false
-      },
-      {
-        "name": "Legendary Hero",
-        "description": "Reach level 50 in the game.",
-        "difficulty": "Hard",
-        "icon": "images/legendary_hero_icon.png",
-        "completed": false
-      },
-      {
-        "name": "Master of Magic",
-        "description": "Unlock all magical abilities.",
-        "difficulty": "Medium",
-        "icon": "images/master_of_magic_icon.png",
-        "completed": false
-      },
-      {
-        "name": "Master of Stealth",
-        "description": "Successfully complete a mission without being detected.",
-        "difficulty": "Medium",
-        "icon": "images/master_of_stealth_icon.png",
-        "completed": false
-      },
-      {
-        "name": "The True Champion",
-        "description": "Complete the main questline.",
-        "difficulty": "Hard",
-        "icon": "images/true_champion_icon.png",
-        "completed": false
-      },
-      {
-        "name": "Treasure Hunter",
-        "description": "Find all hidden treasures in the game.",
-        "difficulty": "Hard",
-        "icon": "images/treasure_hunter_icon.png",
-        "completed": false
-      },
-      {
-        "name": "Master of Arms",
-        "description": "Reach maximum proficiency in all weapon types.",
-        "difficulty": "Hard",
-        "icon": "images/master_of_arms_icon.png",
-        "completed": false
-      },
-      {
-        "name": "Allies and Enemies",
-        "description": "Recruit all possible companions and defeat all enemies in the game.",
-        "difficulty": "Medium",
-        "icon": "images/allies_and_enemies_icon.png",
-        "completed": false
-      },
-      {
-        "name": "The Unstoppable",
-        "description": "Complete the game on the hardest difficulty setting.",
-        "difficulty": "Very Hard",
-        "icon": "images/the_unstoppable_icon.png",
-        "completed": false
-      },
-      {
-        "name": "Master Crafter",
-        "description": "Craft all possible items in the game.",
-        "difficulty": "Medium",
-        "icon": "images/master_crafter_icon.png",
-        "completed": false
-      }
-    ]
-  }
-  
+  "game": "Oblivion Remastered",
+  "achievements": [
+    {
+      "name": "Welcome to Cyrodiil",
+      "description": "Escape the Imperial Sewers and complete the tutorial.",
+      "difficulty": "Easy",
+      "icon": "../images/oblivion/welcome.jpg",
+      "completed": false
+    },
+    {
+      "name": "Champion of Cyrodiil",
+      "description": "Complete the main questline and defeat Mehrunes Dagon.",
+      "difficulty": "Hard",
+      "icon": "../images/oblivion/championofcyrodiil.jpg",
+      "completed": false
+    },
+    {
+      "name": "Arch-Mage",
+      "description": "Become the Arch-Mage by completing the Mages Guild questline.",
+      "difficulty": "Medium",
+      "icon": "../images/oblivion/archmage.jpg",
+      "completed": false
+    },
+    {
+      "name": "Guildmaster",
+      "description": "Complete the Fighters Guild questline and become its leader.",
+      "difficulty": "Medium",
+      "icon": "../images/oblivion/guildmaster.jpg",
+      "completed": false
+    },
+    {
+      "name": "Master Thief",
+      "description": "Become the Gray Fox by finishing the Thieves Guild questline.",
+      "difficulty": "Hard",
+      "icon": "../images/oblivion/thieves.jpg",
+      "completed": false
+    },
+    {
+      "name": "Listener of the Black Hand",
+      "description": "Reach the highest rank in the Dark Brotherhood.",
+      "difficulty": "Hard",
+      "icon": "../images/oblivion/listener.jpg",
+      "completed": false
+    },
+    {
+      "name": "Champion of the Arena",
+      "description": "Win all Arena matches and become the Grand Champion.",
+      "difficulty": "Medium",
+      "icon": "../images/oblivion/arena.jpg",
+      "completed": false
+    },
+    {
+      "name": "Shivering Isles Conqueror",
+      "description": "Complete the Shivering Isles expansion.",
+      "difficulty": "Hard",
+      "icon": "../images/oblivion/shivering isles.jpg",
+      "completed": false
+    },
+    {
+      "name": "Closed an Oblivion Gate",
+      "description": "Closed an Oblivion Gate, Main Quest",
+      "difficulty": "Medium",
+      "icon": "../images/oblivion/gate.jpg",
+      "completed": false
+    }
+  ]
+}
